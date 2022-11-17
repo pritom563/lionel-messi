@@ -1,4 +1,35 @@
+body{
+    margin: 0;
+}
 #messi{
-    font-size: 45px;
+    font-size: 50px;
     color: rgb(64, 64, 231);
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 52%;
+    padding-left: 25%;
+}
+.link-sm{
+    text-decoration: none;
+    background-image: linear-gradient(red, blue);
+    padding: 10px 40px;
+    border-radius: 5%;
+    font-weight: 700;
+    color: white;
+}
+.first-page{
+    background-image: url(/image/E2lQUl_WQAEOVuA.jpg);
+    background-repeat: no-repeat;
+}
+.second-page{
+    background-image: url(/image/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63641.webp);
+    background-repeat: no-repeat;
 }
