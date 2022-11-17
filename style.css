@@ -5,7 +5,7 @@ body{
     font-size: 50px;
     color: rgb(64, 64, 231);
 }
-section{
+.two-page{
     display: flex;
     margin-bottom: 100px;
 }
@@ -32,4 +32,26 @@ section{
 .second-page{
     background-image: url(/image/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63641.webp);
     background-repeat: no-repeat;
+}
+.team-b{
+    color: rgb(233, 79, 79);
+}
+.teams{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-left: blue solid 5px;
+    border-radius: 10px;
+}
+#career{
+    font-size: 45px;
+    color: rgb(236, 77, 77);
+}
+#fc-barcelona{
+    border-left: 5px red solid;
+}
+footer p{
+    text-align: center;
 }
